@@ -13,7 +13,7 @@ class Rdkit < Formula
   # end
 
   head do
-    url "https://github.com/rdkit/rdkit.git"
+    url "https://github.com/BielitzLabs/rdkit.git"
   end
 
   option 'with-java', 'Build with Java language bindings'
