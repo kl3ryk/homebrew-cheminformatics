@@ -76,7 +76,7 @@ class Rdkit < Formula
     # Run cmake, make, make install
     args << "."
     system "cmake", *args
-    system "make -j 4"
+    system "make -j 3"
     system "make install"
 
     # Remove unneeded cmake files
