@@ -2,7 +2,7 @@ require "formula"
 
 class Rdkit < Formula
   homepage "http://rdkit.org/"
-  url "https://github.com/rdkit/rdkit/archive/Release_2016_09_2.tar.gz"
+  url "https://github.com/BielitzLabs/rdkit/archive/Release_2017_03_2.tar.gz"
   sha256 "1de5277f16112e958cfbbe9b0010b44cd80f531dd8896a9a48d741d9ff887421"
 
   # devel version only needed when there is a beta release
